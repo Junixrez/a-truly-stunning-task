@@ -114,8 +114,8 @@ export default function Home() {
       </div>
 
       {/* Main Content */}
-      <main className="relative z-10 flex flex-col items-center px-4 py-16 md:py-24">
-        <div className="w-full max-w-4xl">
+      <main className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 py-16 md:py-24">
+        <div className="w-full max-w-4xl mx-auto">
           <HeroSection />
 
           {error && (
